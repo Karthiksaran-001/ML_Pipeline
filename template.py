@@ -30,6 +30,7 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "main.py",
+    "README.md"
 ]
 
 
