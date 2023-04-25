@@ -16,12 +16,14 @@ class DataIngestion:
     def __init__(self,data_ingestion_config: DataIngestionConfig):
         try:
             self.data_ingestion_config = data_ingestion_config
+            print(self.data_ingestion_config)
         except Exception as e:
             raise CustomException(e, sys) from e
     
     def download_data(self)->str:
         try:
             download_url = self.data_ingestion_config.dataset_download_url # able to download dataset
+            print(download_url)
 
             raw_data_dir = self.data_ingestion_config.raw_data_dir
 
@@ -98,3 +100,4 @@ class DataIngestion:
             return self.split_data_as_train_test()
         except Exception as e:
             raise CustomException(e, sys) from e
+        

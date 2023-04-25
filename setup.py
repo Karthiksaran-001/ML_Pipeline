@@ -3,7 +3,7 @@ from typing import List
 
 PROJECT_NAME = "Machine Learning Project"
 VERSION = "0.0.1"
-AUTHOR = "Shivan Kumar"
+AUTHOR = "Karthik Saran"
 DESRCIPTION = "This is our machine learning pipeline building sesstion"
 HYPHEN_E_DOT = "-e ."
 REQUIREMENT_FILE_NAME = "requirements.txt"
