@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 
-artifact/data_ingestion
+artifact/data_ingestion/
